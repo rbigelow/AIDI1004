@@ -1,0 +1,147 @@
+{
+    "companyName": "Sweet Rings Donuts",
+    "established": 2010,
+    "locations": [
+        {
+            "id": 1,
+            "address": "123 Main Street, Sweetville",
+            "phone": "555-123-4567"
+        },
+        {
+            "id": 2,
+            "address": "456 Glaze Avenue, Frostington",
+            "phone": "555-987-6543"
+        }
+    ],
+    "donuts": [
+        {
+            "id": "classic-1",
+            "name": "Glazed Classic",
+            "type": "yeast",
+            "price": 1.99,
+            "allergens": ["wheat", "milk"],
+            "toppings": ["sugar glaze"],
+            "isVegan": false,
+            "calories": 210
+        },
+        {
+            "id": "choco-1",
+            "name": "Chocolate Dream",
+            "type": "cake",
+            "price": 2.49,
+            "allergens": ["wheat", "milk", "soy"],
+            "toppings": ["chocolate ganache", "chocolate sprinkles"],
+            "isVegan": false,
+            "calories": 320
+        },
+        {
+            "id": "strawberry-1",
+            "name": "Strawberry Sensation",
+            "type": "filled",
+            "price": 2.75,
+            "allergens": ["wheat", "milk"],
+            "toppings": ["strawberry glaze", "powdered sugar"],
+            "fillings": ["strawberry jam"],
+            "isVegan": false,
+            "calories": 290
+        },
+        {
+            "id": "vegan-1",
+            "name": "Plant Powered",
+            "type": "cake",
+            "price": 3.25,
+            "allergens": ["wheat"],
+            "toppings": ["maple glaze", "crushed pecans"],
+            "isVegan": true,
+            "calories": 240
+        }
+    ],
+    "toppings": [
+        {
+            "id": "top-1",
+            "name": "sugar glaze",
+            "extraCost": 0.00,
+            "allergens": []
+        },
+        {
+            "id": "top-2",
+            "name": "chocolate ganache",
+            "extraCost": 0.50,
+            "allergens": ["milk", "soy"]
+        },
+        {
+            "id": "top-3",
+            "name": "sprinkles",
+            "extraCost": 0.25,
+            "allergens": []
+        },
+        {
+            "id": "top-4",
+            "name": "crushed nuts",
+            "extraCost": 0.75,
+            "allergens": ["tree nuts"]
+        }
+    ],
+    "specialOffers": {
+        "boxDeals": [
+            {
+                "name": "Half Dozen",
+                "quantity": 6,
+                "discountPercentage": 10
+            },
+            {
+                "name": "Baker's Dozen",
+                "quantity": 13,
+                "discountPercentage": 15
+            }
+        ],
+        "seasonal": {
+            "active": true,
+            "name": "Summer Berry Collection",
+            "endDate": "2023-08-31"
+        }
+    }
+    ,
+    "beverages": [
+        {
+            "id": "bev-1",
+            "name": "House Coffee",
+            "size": ["small", "medium", "large"],
+            "price": [1.99, 2.49, 2.99],
+            "options": ["black", "cream", "sugar"],
+            "isHot": true
+        },
+        {
+            "id": "bev-2",
+            "name": "Espresso",
+            "size": ["single", "double"],
+            "price": [2.50, 3.50],
+            "options": [],
+            "isHot": true
+        },
+        {
+            "id": "bev-3",
+            "name": "Latte",
+            "size": ["small", "medium", "large"],
+            "price": [3.50, 4.00, 4.50],
+            "options": ["whole milk", "skim milk", "almond milk", "oat milk"],
+            "isHot": true
+        },
+        {
+            "id": "bev-4",
+            "name": "Hot Chocolate",
+            "size": ["small", "medium", "large"],
+            "price": [2.99, 3.49, 3.99],
+            "options": ["whipped cream", "marshmallows"],
+            "isHot": true
+        },
+        {
+            "id": "bev-5",
+            "name": "Chai Tea",
+            "size": ["small", "medium", "large"],
+            "price": [2.75, 3.25, 3.75],
+            "options": ["honey", "milk"],
+            "isHot": true
+        }
+    ]
+}
